@@ -8,6 +8,21 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
+   <header class="navbar navbar-fixed-top navbar-inverse">
+  	<div class="navbar-inner">
+	  	<div class="container">
+	  		<%= link_to "LMT南京平台大局", '#', id: "logo" %>
+			  	<nav>
+			  		<ul class="nav nav-pills pull-right">
+			  			<li><%= link_to "Home", '#' ,id: "logo_behind"%></li>
+			  			<li><%= link_to "Help", '#' ,id: "logo_behind"%></li>
+			  			<li><%= link_to "荣誉殿堂", '#' ,id: "logo_behind"%></li>
+			  		</ul>
+			  	</nav>
+		  	</div>
+	  	</div>
+  	</header> 
+
   <body>
     <%= yield %>
   </body>
