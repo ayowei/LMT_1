@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Hwid:</strong>
+  <%= @proj.hwid %>
+</p>
+
+<p>
+  <strong>Case:</strong>
+  <%= @proj.case %>
+</p>
+
+<%= link_to 'Edit', edit_proj_path(@proj) %> |
+<%= link_to 'Back', projs_path %>
